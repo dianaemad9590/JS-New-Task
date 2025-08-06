@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fustat:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.addNewTask{
+    width: 797px;
+    margin-left: 25%;
+    position: relative;
+    h1{
+        font-family: Barlow;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 25px;
+        line-height: 100%;
+        vertical-align: middle;
+        text-transform: capitalize;
+        margin-left: 20px;
+
+    }
+    .newTask{
+        width: 727px;
+        height: 60px;
+        opacity: 1;
+        top: 77px;
+        left: 35px;
+        gap: 10px;
+        border-radius: 15px;
+        border-width: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        background: #FFFFFC;
+        border: 1px solid #BBD0FF;
+        border-radius: 20px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        
+    }
+    .buttons{
+        width: 316px;
+        height: 50px;
+        opacity: 1;
+        gap: 16px;
+        position: absolute;
+        right: 30px;
+        .cancle{
+            width: 150px;
+            height: 50px;
+            border-radius: 15px;
+            border-width: 1px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            border: 1px solid #8D99AE;
+            background-color: white;
+
+        }
+        .confirm{
+            width: 150px;
+            height: 50px;
+            border-radius: 15px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            background: #00B4D8;
+            border: 1px solid white;
+        }
+
+    }
+}
+.tasks{
+    width: 1060px;
+    height: 516px;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 0;
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+    .all{
+        width: 250px;
+        height: 516px;
+        margin-top: 0;
+        border-right: solid 1px rgb(65, 63, 63);
+        h5{
+            font-family: Barlow;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            text-transform: capitalize;
+            margin-left: 0;
+        }
+        #all{
+            color: #1576D6;
+;
+        }
+    }
+    .tasksOption{
+        width: 760px;
+        height: 516px;
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            margin-left: 30px;
+            margin-right: 70px;
+            h1{
+                font-family: Barlow;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 40px;
+                line-height: 100%;
+                vertical-align: middle;
+                text-transform: capitalize;
+
+            }
+            button{
+                width: 134px;
+                height: 40px;
+                margin-top: 30px;
+                justify-content: space-between;
+                border-radius: 10px;
+                border-width: 1px;
+                padding-top: 12px;
+                padding-right: 16px;
+                padding-bottom: 12px;
+                padding-left: 16px;
+                border: 1px solid #00B4D8;
+                font-family: Barlow;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 100%;
+                vertical-align: middle;
+                text-transform: capitalize;
+                background-color: white;
+            }
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-left: 30px;
+            .task{
+                width: 643px;
+                height: 60px;
+                border-radius: 15px;
+                border-width: 0.5px;
+                border: 0.5px solid #BBD0FF;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                p{
+                    font-family: Barlow;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 18px;
+                    line-height: 100%;
+                    vertical-align: middle;
+                    margin-left: 20px;
+                }
+                .radio{
+                    width: 26px;
+                    height: 26px;
+                    color: #00B4D8;
+                    margin-top: 15px;
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}

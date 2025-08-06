@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="big d-flex flex-column justify-content-between align-items-center">
+        <div class="addNewTask d-flex flex-column justify-content-center align-items-center">
+        <h1>add new task</h1>
+        <input type="text" placeholder="type new task here" class="newTask">
+      
+    </div>
+    <div class="tasks d-flex flex-row justify-content-between">
+        <div class="all">
+            <h5 id="all">All</h5>
+            <h5>To-Do</h5>
+            <h5>Completed</h5>
+        </div>
+        <div class="tasksOption">
+            <div class="top">
+                <h1>All</h1>
+                <button id="newTaskAdd" onclick="addNewTask()">add task</button>
+            </div>
+            <div class="menu">
+                <div class="task ">
+                    <p>task1</p>
+                    <input type="radio" class="radio">
+                </div>
+                <div class="task">
+                    <p>task2</p>
+                    <input type="radio" class="radio">
+                </div>
+                <div class="task ">
+                    <p>task3</p>
+                    <input type="radio" class="radio">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./task2.js"></script>
+</body>
+</html>
